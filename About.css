@@ -8,7 +8,7 @@ body{
    
   font-family: 'Ubuntu', sans-serif;
   margin: 0 auto;
-  padding: 0 30px;
+  padding: 0 20px;
   min-height: 100vh;
   max-width: 1300px;
   
@@ -219,15 +219,17 @@ body{
     margin-top: 40px;
       }
 .trademark{
-    font-size: 20px;
-    padding:  10px 5px;
+    font-size: 18px;
+    padding: 5px;
+    
+    
 }
 .top a{
     text-decoration: none;
-    font-size: 20px;
+    font-size: 18px;
     display: inline-block;
     color: white;
-    padding:  10px 5px;
+    padding: 5px;
 }
 .top a:hover{
 color: crimson;
@@ -294,15 +296,16 @@ background-color: white;
            
             font-size: 20px;
     }
+    #about .about-content .column-left{
+        text-align: center;
+    }
     #about .about-content .column-right{
         text-align: center;
     }
     #about .title::after{
         left:44%;
     }
-    .trademark, .top{
-        transform: scale(0.8);
-        }
+    
 }
 
     @media only screen and (max-width: 550px){
@@ -335,7 +338,7 @@ background-color: white;
             font-size:17 ;
         }
         .trademark, .top{
-            transform: scale(0.7);
+            transform: scale(0.8);
             }
             }
     
@@ -363,7 +366,7 @@ background-color: white;
      
          #about .title::after{
              font-size: 15px;
-             left:30%;
+             left:37%;
          }
          #about .title::before{
            
@@ -372,17 +375,21 @@ background-color: white;
          }
          .dropdown{
              transform: scale(0.7);
-             margin-right: 3%;
+             margin-right: 2%;
          }
          #nav .logo{
-            font-size: 20px;
+            font-size: 35px;
         }
         #about .title{
             transform: scale(0.8);
             }
-        .trademark, .top{
-                transform: scale(0.6);
-                }
+     .trademark, .top a{
+                font-size: 17px;
+                
+                
+                
+            }
+        
          }
           
           
@@ -416,9 +423,7 @@ background-color: white;
             transform: scale(0.6);
             margin-right: 2%;
         }
-        #about .title{
-            transform: scale(0.7);
-            }
+       
     }
    
    

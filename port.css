@@ -321,7 +321,7 @@ background-color: white;
         margin-right: 0%;
     } 
 #nav .logo{
-        font-size: 30px;
+        font-size: 35px;
  }
  body{
     padding: 0 20px;
@@ -347,8 +347,8 @@ background-color: white;
         max-width: 3600px;
     }
     .dropdown{
-        transform: scale(0.6);
-        margin-right: 3%;
+        transform: scale(0.8);
+        margin-right: 5%;
     } 
 
  body{
@@ -366,6 +366,7 @@ background-color: white;
           
     transform: scale(1);
     font-size: 20px;
+    margin-top: 40px;
 }
 .trademark, .top{
     transform: scale(0.6);

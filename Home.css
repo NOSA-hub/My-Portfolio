@@ -110,7 +110,7 @@ body{
 
   @keyframes animi{
     from{font-size: xx-small;}
-    to{font-size: xx-large;}
+    to{font-size: 100%;}
   }
  
   /*============Home====================*/
@@ -158,9 +158,8 @@ body{
     background-color: black;
     color: white;
     width: 100%;
-    margin-top: 100px;
-    position: absolute;
-    bottom: 0;
+    margin-top: 20px;
+    
     }
 .trademark{
     font-size: 20px;
@@ -234,14 +233,14 @@ background-color: white;
     }
 .dropdown{
         transform: scale(0.8);
-        
+        margin-right: 10%;
 }
 .dropdown-content {
           
     min-width: 100px;
 }
 #nav .logo{
-       font-size: 30px;
+       font-size: 35px;
 }
 .home .content .text-1{
     font-size: 15px;

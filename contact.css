@@ -224,8 +224,7 @@ textarea{
     display: inline-block;
     color: white;
     padding:  10px 5px;
-    position: absolute;
-    bottom: 0;
+  
 }
 .top a:hover{
 color: crimson;
