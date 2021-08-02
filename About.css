@@ -386,6 +386,7 @@ background-color: white;
          .dropdown{
              transform: scale(0.7);
              margin-right: 2%;
+             z-index: 1;
          }
          #nav .logo{
             font-size: 35px;
