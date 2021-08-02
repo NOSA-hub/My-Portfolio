@@ -107,7 +107,8 @@ body{
        background-color: white;
        color: black;
        height: 100vh;
-       position: relative;
+       
+      
        
        
    }
@@ -225,8 +226,7 @@ body{
 .trademark{
     font-size: 18px;
     padding: 5px;
-    
-    
+       
 }
 .top a{
     text-decoration: none;
@@ -239,8 +239,59 @@ body{
 color: crimson;
 background-color: white;
 }
+.My-progress{
+    margin-bottom: 100px;
+}
+.text-progress{
+    color: crimson;
+    font-size: 25px;
+    font-weight: 600;
+    margin: 20px 5%; 
+    text-decoration: underline;
+}
+.html-progress{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-left: 3%;
+    margin-bottom: 10px;
+    color: crimson;
+    font-size: 20px;
+    font-weight: 500;
+}
+.progress-bar{
+    width: 200px;
+    background-color: grey;
+    border-radius: 20px;
+    margin-left: 20px;
+    
+}
+.progress{
+    width: 90%;
+    background-color: crimson;
+    color: white;
+    font-size: 13px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 5px;
+}
+.css-progress-bar{
+    width: 200px;
+    background-color: grey;
+    border-radius: 20px;
+    margin-left: 35px;
+    
+}
 
-
+ .css-progress{
+    width: 80%;
+    background-color: crimson;
+    color: white;
+    font-size: 13px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 5px;
+}
    
    
   /*===================Responsiveness====================*/  
@@ -270,10 +321,15 @@ background-color: white;
       
             max-width: 850px;
              }
+    .My-progress{
+        transform: scale(0.9);
+        padding-bottom: 200px;
+    }
+  
         
     .max-width{
         max-width: 850px;
-        padding-bottom: 100px;
+        
         padding-top: 30px;
             }
     .about-content{
@@ -320,6 +376,10 @@ background-color: white;
       
             max-width: 550px;
              }
+        .My-progress{
+                transform: scale(0.8);
+                padding-bottom: 200px;
+            }
         #about .about-content .column-left{
                 width: 100%;
             }
@@ -357,6 +417,10 @@ background-color: white;
       
             max-width: 360px;
              }
+        .My-progress{
+                transform: scale(0.7);
+                padding-bottom: 200px;
+            }
         #about .column-left img{
             height: 200px;
             width: 200px;
