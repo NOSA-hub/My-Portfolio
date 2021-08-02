@@ -106,7 +106,8 @@ body{
    section{
        background-color: white;
        color: black;
-       
+       height: 100vh;
+       position: relative;
        
        
    }
@@ -216,7 +217,10 @@ body{
     background-color: crimson;
     color: white;
     width: 100%;
-    margin-top: 40px;
+   position: fixed;
+   left: 0px;
+    bottom: 0;
+    
       }
 .trademark{
     font-size: 18px;
@@ -269,6 +273,8 @@ background-color: white;
         
     .max-width{
         max-width: 850px;
+        padding-bottom: 100px;
+        padding-top: 30px;
             }
     .about-content{
         display: flex;
@@ -305,6 +311,7 @@ background-color: white;
     #about .title::after{
         left:44%;
     }
+  
     
 }
 
@@ -340,6 +347,9 @@ background-color: white;
         .trademark, .top{
             transform: scale(0.8);
             }
+        .about{
+            margin-bottom: 50px;
+        }
             }
     
     @media only screen and (max-width: 360px){
